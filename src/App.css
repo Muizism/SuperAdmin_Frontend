@@ -1,0 +1,499 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.dashboard-nav {
+  margin-bottom: 20px;
+}
+
+.dashboard-nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.loading {
+  color: #999;
+}
+
+
+
+.report{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.report2{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hotels {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+}
+
+.hotel-item {
+  margin-bottom: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: #f5f5f5;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-main {
+  width: 80%;
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-content {
+  margin-bottom: 20px;
+}
+
+.dashboard-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.dashboard-nav a {
+  text-decoration: none;
+  color: #333333;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #eeeeee;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-nav a:hover {
+  background-color: #dddddd;
+}
+
+.dashboard-loading {
+  text-align: center;
+  color: #999999;
+}
+
+.dashboard-footer {
+  text-align: center;
+  color: #999999;
+  margin-top: 20px;
+}
+
+.loading {
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-text {
+  text-align: center;
+}
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login-text {
+  text-align: center;
+}
+.users-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  flex: 1;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+form button[type="submit"],
+.search-container button {
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.users-table th,
+.users-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.users-table th {
+  background-color: #f2f2f2;
+}
+
+.users-table td:last-child {
+  text-align: center;
+}
+
+.users-table td button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.searched-user {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+}
+
+.searched-user h3 {
+  margin-top: 0;
+}
+
+.admins-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.admins-container h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.admins-container form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.admins-container input[type="text"],
+.admins-container input[type="email"] {
+  width: 200px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.admins-container button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.admin-table th,
+.admin-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.admin-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.admin-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.search-container {
+  margin-bottom: 10px;
+}
+
+.search-container input[type="text"] {
+  width: 150px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.searched-admin {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f2f2f2;
+}
+/* App.css */
+.hotels {
+  margin-top: 20px;
+}
+
+.hotels h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.hotels form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.hotels form input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.hotels form button {
+  padding: 8px 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.hotels-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.hotels-table th,
+.hotels-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.hotels-table th {
+  background-color: #f2f2f2;
+}
+
+.hotels-table td:last-child {
+  text-align: center;
+}
+
+.hotels-table button {
+  padding: 6px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.hotels-table button:last-child {
+  margin-right: 0;
+}
+
+.hotels-table button:hover {
+  background-color: #45a049;
+}
+
+.hotels-table input[type='text'] {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
